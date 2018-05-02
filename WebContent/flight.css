@@ -1,0 +1,187 @@
+*
+{
+	margin:0px;
+	padding: 0px;
+}
+body
+{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color:#cccccc;
+	font-family: Arial,Helvetica,sans-serif;
+ 
+}
+
+ header{
+	background-color:#1a212b;
+	height: 100px;
+	width: 100%;
+	padding-bottom:-1px;
+	position: relative;
+
+}
+nav{
+	height: 50px;
+	width: 92%;
+	background:#d24033;
+	position: relative;
+	margin-left: 50px;
+	shape-margin:10px;
+	margin-right: 10px;
+	margin-top: -50px;
+
+	
+	
+}
+nav a{
+	
+	float: left;
+	font-size: 20px;
+	color: white;
+	width: 240px;
+	height: 30px;
+	text-decoration: none;
+	line-height: 40px;
+	left:10%;
+	position: relative;
+
+
+}
+nav a:hover{
+	background-color: white;
+	color: blue;
+	border-size:10px;
+
+}
+.pic{
+ font-size: 40px;
+color: #d24033;
+}
+
+.old{
+	color:black;
+	font-size: 30px;
+
+}
+.one{
+	height: 200px;
+	width: 100%;
+	background: #23837f;
+	float: top;
+	margin-top:10px; 
+	overflow: hidden;
+}
+
+.rht{
+	background-color: black;
+	width: 90px;
+	height: 70px;
+	text-align:right;
+	right: 	
+	position: relative;
+
+}
+img{
+	 width: 60px;
+	 height: 60px;
+	 position: relative;
+	 margin-left:60px;
+	 top:10px; 
+}
+
+.first
+{
+	background: radial-gradient( skyblue,white,orange,blue);
+	position: relative;
+	left: 60px;
+	top: 30px;
+}
+.two{
+	height: 300px;
+	width: 75%;
+	background: white;
+	float: top;
+	margin-top:10px;
+
+}
+
+section h1{
+	color:#d24033;
+	font-size: 30px;
+	text-align:left; 
+	margin-left: 20px;
+	margin-top:40px;
+
+
+}
+
+section h2{
+	color:#23837f; 
+	text-align: left;
+	margin-left: 20px;
+	
+}
+p{
+	font-size: 15px;
+	margin-left:20px;
+	line-height:20px;
+
+}
+button{
+	color: black;
+	size:80px;
+	background-color:#23837f;
+	position: relative;
+	left:20px;
+	text-align:left;
+	top: 50px;
+
+
+}
+.rht{
+	color:black;
+
+}
+.three{
+
+	height: 130px;
+	width: 24%;
+	background: red;
+	float: top;
+	margin-top:-300px; 
+	overflow: auto;
+	margin-left: 76%;
+
+}
+
+input{
+	margin-top:70px;
+	left:20px;
+	height:25px;
+	margin-left:60px;
+
+}
+.four{
+	height: 170px;
+	width: 24%;
+	background: white;
+	float: top;
+	
+	overflow: auto;
+	margin-left: 76%;
+}
+
+
+h4{
+	color:red;
+	margin-top:20px;
+	margin-left:20px;
+
+}
+.ty{
+	text-align:center;
+	position: relative;
+	margin-bottom: 40px;
+	top: 20px;
+}

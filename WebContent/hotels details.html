@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.background {
+  background: url("glass hotels4.jpg") repeat;
+  border: 2px solid black;
+  background-size: cover;
+}
+
+div.transbox {
+  margin: 200px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  border-radius: 10px;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+div.gallery {
+    margin: 10px 10px 10px 10px;
+    margin-top: 180px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 250px;
+    height: 180px;
+}
+/*img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+img {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+<br>
+<center><font color ="white"><h1><b><i>Luxury Hotels</i></b></h1></font></center>
+  <div class="transbox">
+  <div class="gallery">
+  <a target="_blank" href="hotels data.html">
+    <img src="hotels.jpg" alt="Trolltunga Norway" width="500" height="700">
+  </a>
+  <div class="desc">KINGFISHER 3 deals<br>Mumbai - Delhi</div>
+ <div class="price">Price <br> 49% off</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="hotels data.html">
+    <img src="hotels1.jpg" alt="Northern Lights" width="500" height="700">
+  </a>
+  <div class="desc"><b>AIR INDIA colourful rates for the festival of colors</b><br>Goa - Agra</div>
+   <div class="price">Price <br> 20% back</div>
+</div> 
+
+<div class="gallery">
+  <a target="_blank" href="hotels data.html">
+    <img src="hotels2.jpg" alt="Northern Lights" width="500" height="700">
+  </a>
+  <div class="desc"><br>Packages and offers <br>Goa - Agra</div>
+   <div class="price">JET AIRWAYS <br> 49% off</div>
+</div>
+    <p>@lumina</p>
+  </div>
+</div>
+
+</body>
+</html>
